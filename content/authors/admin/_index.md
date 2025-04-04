@@ -33,7 +33,7 @@ profiles:
   - icon: brands/bluesky
     url: https://bsky.app/profile/mheming.bsky.social
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+    url: https://x.com/MHemingNeuro
   - icon: brands/github
     url: https://github.com/mihem
   - icon: academicons/pubmed
