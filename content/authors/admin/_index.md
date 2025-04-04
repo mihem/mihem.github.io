@@ -30,6 +30,8 @@ profiles:
   - icon: at-symbol
     url: 'mailto:your-email@example.com'
     label: E-mail Me
+  - icon: bluesky
+    url: https://bsky.app/profile/mheming.bsky.social
   - icon: brands/x
     url: https://twitter.com/GetResearchDev
   - icon: brands/github
