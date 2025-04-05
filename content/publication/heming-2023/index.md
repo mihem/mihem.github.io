@@ -36,5 +36,6 @@ publication: '*Proceedings of the National Academy of Sciences of the United Sta
   of America*'
 #doi: 10.1073/pnas.2221544120
 links:
-url_pdf: http://dx.doi.org/10.1073/pnas.2221544120
+- name: URL
+  url: http://dx.doi.org/10.1073/pnas.2221544120
 ---
