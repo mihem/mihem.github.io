@@ -189,11 +189,34 @@ I am a clinical scientist (physician and scientist) interested in neuroimmunolog
   - Neuroimmunology
   - Single cell transcriptomics
 
-### Programming/DevOps Skills: 
-  - R (advanced)
-  - Python (basic) <i class="fa-brands fa-python"></i>
-  - C++ (rudimentary)
-  - Linux System Administration (proficient)
-  - Docker (proficient)
-  - Git (proficient)
+### Programming/DevOps Skills:
+skills:
+  - name: Programming
+    items:
+      - name: R
+        description: ''
+        percent: 90
+        icon: code-bracket
+      - name: Python
+        description: ''
+        percent: 60
+        icon: code-bracket
+      - name: C++
+        description: ''
+        percent: 30
+        icon: code-bracket
+  - name: DevOps
+    items:
+      - name: Linux Administration
+        description: ''
+        percent: 80
+        icon: server
+      - name: Docker
+        description: ''
+        percent: 80
+        icon: cube
+      - name: Git
+        description: ''
+        percent: 80
+        icon: git-branch
 
