@@ -43,10 +43,10 @@ profiles:
   - icon: academicons/orcid
     url: https://orcid.org/0000-0002-9568-2790
 
-interests:
-  - Data analysis
-  - Neuroimmunology
-  - Single cell transcriptomics
+#interests:
+#  - Data analysis
+#  - Neuroimmunology
+#  - Single cell transcriptomics
 
   
   # Education
