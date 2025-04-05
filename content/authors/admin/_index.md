@@ -182,12 +182,18 @@ interests:
 
 ## About Me
 
-I am a clinical scientist interested in neuroimmunology, data analysis with R and single cell transcriptomics. I work as a resident physician in the Department of Neurology of the University Hospital Münster and am part of the [mzhlab](https://mzhlab.com).
+I am a clinical scientist (physician and scientist) interested in neuroimmunology, data analysis with R and single cell transcriptomics. I work as a resident physician in the Department of Neurology of the University Hospital Münster and am part of the [mzhlab](https://mzhlab.com).
 
-## Programming/DevOps Skills: 
+### Interests:
+  - Data analysis
+  - Neuroimmunology
+  - Single cell transcriptomics
+
+### Programming/DevOps Skills: 
   - R (advanced)
   - Python (basic)
   - C++ (rudimentary)
   - Linux System Administration (proficient)
   - Docker (proficient)
   - Git (proficient)
+
