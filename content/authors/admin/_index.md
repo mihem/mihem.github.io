@@ -48,7 +48,7 @@ interests:
   - Neuroimmunology
   - Single cell transcriptomics
 
-skills: 
+Skills: 
   - R (advanced)
   - Python (basic)
   - C++ (rudimentary)
