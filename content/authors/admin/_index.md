@@ -48,13 +48,13 @@ interests:
   - Neuroimmunology
   - Single cell transcriptomics
 
-Skills: 
-  - R (advanced)
-  - Python (basic)
-  - C++ (rudimentary)
-  - Linux System Administration (proficient)
-  - Docker (proficient)
-  - Git (proficient)
+#Skills: 
+#  - R (advanced)
+#  - Python (basic)
+#  - C++ (rudimentary)
+#  - Linux System Administration (proficient)
+#  - Docker (proficient)
+#  - Git (proficient)
   
   # Education
   # - area: PhD Artificial Intelligence
