@@ -108,7 +108,7 @@ interests:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Programming language
     items:
       - name: Python
         description: ''
@@ -139,8 +139,8 @@ skills:
         percent: 80
         icon: camera
 
-languages:
-  - name: English
+skills:
+  - name: R
     percent: 100
   - name: Chinese
     percent: 75
