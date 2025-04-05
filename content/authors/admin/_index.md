@@ -191,7 +191,7 @@ I am a clinical scientist (physician and scientist) interested in neuroimmunolog
 
 ### Programming/DevOps Skills: 
   - R (advanced)
-  - Python (basic) <i class="fab fa-python"></i>
+  - Python (basic) <span class="fa-brands fa-python"></span>
   - C++ (rudimentary)
   - Linux System Administration (proficient)
   - Docker (proficient)
