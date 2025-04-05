@@ -36,8 +36,7 @@ publication: '*Proceedings of the National Academy of Sciences of the United Sta
   of America*'
 #doi: 10.1073/pnas.2221544120
 links:
-- icon: book-open
-  icon_pack: fas
+- icon: brands/obp
   name: Commentary
   url: http://dx.doi.org/10.1073/pnas.2221544120
 ---
