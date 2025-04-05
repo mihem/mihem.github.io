@@ -22,7 +22,6 @@ publishDate: '2025-04-05T18:13:31.093892Z'
 publication_types:
 - article-journal
 publication: '*Annals of Neurology*'
-doi: 10.1002/ana.27157
 abstract: 'OBJECTIVE: Cerebrospinal fluid (CSF) provides unique insights into the
   brain and neurological diseases. However, the potential of CSF flow cytometry applied
   on a large scale remains unknown. METHODS: We used data-driven approaches to analyze
@@ -48,4 +47,5 @@ abstract: 'OBJECTIVE: Cerebrospinal fluid (CSF) provides unique insights into th
 links:
 - name: URL
   url: http://dx.doi.org/10.1002/ana.27157
+  url_code: https://github.com/mihem/csf_immune_atlas
 ---
