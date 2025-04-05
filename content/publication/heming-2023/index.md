@@ -30,13 +30,11 @@ image:
 projects: []
 publishDate: '2023-04-17T07:56:12.415740Z'
 publication_types:
-- '2'
+- 'commentary'
 abstract: ''
 publication: '*Proceedings of the National Academy of Sciences of the United States
   of America*'
 #doi: 10.1073/pnas.2221544120
 links:
-- icon: brands/obp
-  name: Commentary
-  url: http://dx.doi.org/10.1073/pnas.2221544120
+url_pdf: http://dx.doi.org/10.1073/pnas.2221544120
 ---
