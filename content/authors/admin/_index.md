@@ -189,4 +189,4 @@ interests:
 
 ## About Me
 
-I am a clinical scientist interested in neuroimmunology, data analysis with R and single cell transcriptomics. I work as a resident physician in the Department of Neurology of the University Hospital Münster and am part of the [mzhlab](https://mzhlab.com)
+I am a clinical scientist interested in neuroimmunology, data analysis with R and single cell transcriptomics. I work as a resident physician in the Department of Neurology of the University Hospital Münster and am part of the [mzhlab](https://mzhlab.com).
