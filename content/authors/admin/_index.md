@@ -48,13 +48,6 @@ interests:
   - Neuroimmunology
   - Single cell transcriptomics
 
-#Skills: 
-#  - R (advanced)
-#  - Python (basic)
-#  - C++ (rudimentary)
-#  - Linux System Administration (proficient)
-#  - Docker (proficient)
-#  - Git (proficient)
   
   # Education
   # - area: PhD Artificial Intelligence
@@ -190,3 +183,11 @@ interests:
 ## About Me
 
 I am a clinical scientist interested in neuroimmunology, data analysis with R and single cell transcriptomics. I work as a resident physician in the Department of Neurology of the University Hospital Münster and am part of the [mzhlab](https://mzhlab.com).
+
+### Skills: 
+  - R (advanced)
+  - Python (basic)
+  - C++ (rudimentary)
+  - Linux System Administration (proficient)
+  - Docker (proficient)
+  - Git (proficient)
