@@ -70,7 +70,7 @@ profiles:
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  # - area: BSc Artificial Intelligence
+  # - area: BSc Artificial IntelligenceG
   #   institution: Massachusetts Institute of Technology
   #   date_start: 2016-01-01
   #   date_end: 2020-12-31
@@ -191,7 +191,7 @@ I am a clinical scientist (physician and scientist) interested in neuroimmunolog
 
 ### Programming/DevOps Skills: 
   - R (advanced)
-  - Python (basic)
+  - Python (basic) ![Python](https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/python.svg)
   - C++ (rudimentary)
   - Linux System Administration (proficient)
   - Docker (proficient)
