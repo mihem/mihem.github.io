@@ -108,38 +108,35 @@ interests:
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
-# skills:
-#  - name: Programming language
-#    items:
-#      - name: Python
-#        description: ''
-#        percent: 80
-#        icon: code-bracket
-#      - name: Data Science
-#        description: ''
-#        percent: 100
-#        icon: chart-bar
-#      - name: SQL
-#        description: ''
-#        percent: 40
-#        icon: circle-stack
-#  - name: Hobbies
-#    color: '#eeac02'
-#    color_border: '#f0bf23'
-#    items:
-#      - name: Hiking
-#        description: ''
-#        percent: 60
-#        icon: person-simple-walk
-#      - name: Cats
-#        description: ''
-#        percent: 100
-#        icon: cat
-#      - name: Photography
-#        description: ''
-#        percent: 80
-#        icon: camera
-
+skills:
+  - name: Programming
+    items:
+      - name: R (advanced)
+        description: ''
+        percent: 90
+        icon: code-bracket
+      - name: Python (basic)
+        description: ''
+        percent: 50
+        icon: code-bracket
+      - name: C++ (rudimentary)
+        description: ''
+        percent: 30
+        icon: code-bracket
+  - name: DevOps
+    items:
+      - name: Linux System Administration (proficient)
+        description: ''
+        percent: 80
+        icon: terminal
+      - name: Docker (proficient)
+        description: ''
+        percent: 80
+        icon: server
+      - name: Git (proficient)
+        description: ''
+        percent: 80
+        icon: git-branch
 # languages:
 #  - name: English
 #    percent: 100
