@@ -79,7 +79,43 @@ sections:
     content:
       title: Contact
       text: |-
-        <!-- Contact form using Formspree -->
+        <style>
+          form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1rem;
+            max-width: 400px;
+            margin: auto;
+          }
+
+          label {
+            font-weight: bold;
+          }
+
+          input, textarea {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+          }
+
+          button {
+            padding: 0.5rem 1rem;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+          }
+
+          button:hover {
+            background-color: #0056b3;
+          }
+        </style>
+
         <form
           action="https://formspree.io/f/mbjwlgow"
           method="POST"
