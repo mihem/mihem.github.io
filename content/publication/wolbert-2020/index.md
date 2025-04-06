@@ -39,12 +39,12 @@ image:
 links:
 - icon: r-project
   icon_pack: fab
-  name: Shiny app naive mouse
+  name: Shiny app healthy mouse
   url: https://osmzhlab.uni-muenster.de/shiny/cerebro_pns_naive/
 - icon: r-project
   icon_pack: fab
-  name: Shiny app mouse
-  url: https://osmzhlab.uni-muenster.de/shiny/cerebro_meninges_rat/
+  name: Shiny app inflammatory mouse model
+  url: https://osmzhlab.uni-muenster.de/shiny/cerebro_pns_nodicam/
 - name: URL
   url: https://doi.org/10.1073/pnas.1912139117
 # Projects (optional).
