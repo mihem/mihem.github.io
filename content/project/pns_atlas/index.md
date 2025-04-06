@@ -4,7 +4,7 @@ date: "2025-04-01T00:00:00Z"
 image:
   caption: Human PNS Atlas
   focal_point: Smart
-summary: Stroke-specific myeloid cells in the brain parenchyma and pia
+summary: Multi-omic characterization of human sural nerves across polyneuropathies.
 title: Human PNS Atlas
 links:
 - name: PNS Atlas Homepage
