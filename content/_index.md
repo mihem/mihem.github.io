@@ -48,7 +48,7 @@ sections:
       title: Projects
       filters:
         folders:
-          - projects
+          - project
         featured_only: true
     design:
       view: article-grid
