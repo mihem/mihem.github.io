@@ -50,8 +50,8 @@ sections:
         folders:
           - project
     design:
-      view: card
-      columns: 2
+      view: compact
+      columns: 1
   - block: collection
     id: papers
     content:
