@@ -102,33 +102,7 @@ sections:
           }
 
           button {
-            padding: 0.5rem 1rem;
-            background-color: var(--button-bg, #007BFF);
-            color: var(--button-text, white);
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 1rem;
-          }
-
-          button:hover {
-            background-color: var(--button-hover-bg, #0056b3);
-          }
-
-          /* Light mode */
-          :root {
-            --button-bg: #007BFF;
-            --button-text: white;
-            --button-hover-bg: #0056b3;
-          }
-
-          /* Dark mode */
-          @media (prefers-color-scheme: dark) {
-            :root {
-              --button-bg: #444;
-              --button-text: white;
-              --button-hover-bg: #666;
-            }
+            @apply bg-primary-700 text-white font-bold py-2 px-4 rounded shadow hover:bg-primary-800;
           }
         </style>
 
