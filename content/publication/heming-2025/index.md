@@ -47,5 +47,5 @@ abstract: 'OBJECTIVE: Cerebrospinal fluid (CSF) provides unique insights into th
 links:
 - name: URL
   url: http://dx.doi.org/10.1002/ana.27157
-  url_code: https://github.com/mihem/csf_immune_atlas
+url_code: https://github.com/mihem/csf_immune_atlas
 ---
