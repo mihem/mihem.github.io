@@ -60,10 +60,4 @@ links:
    icon: twitter
    name: Follow
    url: 'https://twitter.com/Twitter'
-- name: URL
-  url: http://dx.doi.org/10.7554/eLife.67396
-- icon_pack: brands
-  icon: bluesky
-  name: Shiny app
-  url: https://osmzhlab.uni-muenster.de/shiny/cerebro_uveitis/
 ---
