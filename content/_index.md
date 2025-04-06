@@ -124,7 +124,7 @@ sections:
           </div>
         </form>
     design:
-      css_style: 'max-width: 800px; margin: 0 auto;'
+      css_style: 'max-width: 100%; margin: 0 auto; padding: 0 1rem;'
 #  - block: collection
 #    id: talks
 #    content:
