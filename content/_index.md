@@ -77,9 +77,6 @@ sections:
       view: citation
   - block: markdown
     id: contact
-    design:
-      spacing:
-        padding: ['20px', '0', '20px', '0']
     content:
       title: Contact
       text: |-
