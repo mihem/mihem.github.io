@@ -56,6 +56,10 @@ abstract: Uveitis describes a heterogeneous group of inflammatory eye diseases c
   HLA-B27-positive uveitis with relevance to DCs.
 publication: '*eLife*'
 links:
+ - icon_pack: fab
+   icon: twitter
+   name: Follow
+   url: 'https://twitter.com/Twitter'
 - name: URL
   url: http://dx.doi.org/10.7554/eLife.67396
 - icon_pack: brands
