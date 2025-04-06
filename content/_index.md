@@ -123,8 +123,6 @@ sections:
             <label for="message">Message:</label>
             <textarea id="message" name="message" rows="4" required></textarea>
           </div>
-          <button type="submit">Send</button>
-
           <div class="flex justify-center mt-6">
             <button type="submit" class="relative inline-flex items-center gap-1 rounded-md border border-gray-300 bg-white px-3 py-2 pl-4 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-20 dark:border-gray-500 dark:bg-gray-800 dark:text-gray-300">Send</button>
           </div>
