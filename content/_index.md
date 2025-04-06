@@ -79,6 +79,9 @@ sections:
     id: contact
     content:
       title: Contact
+      design: 
+        view: article-grid
+        columns: 1
       text: |-
         <style>
           form {
