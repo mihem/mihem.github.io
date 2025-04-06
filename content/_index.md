@@ -77,9 +77,6 @@ sections:
       view: citation
   - block: markdown
     id: contact
-    design:
-      view: article-grid
-      columns: 1
     content:
       title: Contact
       text: |-
@@ -106,26 +103,28 @@ sections:
           }
         </style>
 
-        <form
-          action="https://formspree.io/f/mbjwlgow"
-          method="POST"
-        >
-          <div>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-          </div>
-          <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-          </div>
-          <div>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-          </div>
-          <div class="flex justify-center mt-6">
-            <button type="submit" class="relative inline-flex items-center gap-1 rounded-md border border-gray-300 bg-white px-3 py-2 pl-4 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-20 dark:border-gray-500 dark:bg-gray-800 dark:text-gray-300">Send</button>
-          </div>
-        </form>
+        <div class="container mx-auto max-w-screen-lg px-8 xl:px-5 pb-5 lg:pb-8">
+          <form
+            action="https://formspree.io/f/mbjwlgow"
+            method="POST"
+          >
+            <div>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <div class="flex justify-center mt-6">
+              <button type="submit" class="relative inline-flex items-center gap-1 rounded-md border border-gray-300 bg-white px-3 py-2 pl-4 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-20 dark:border-gray-500 dark:bg-gray-800 dark:text-gray-300">Send</button>
+            </div>
+          </form>
+        </div>
 #  - block: collection
 #    id: talks
 #    content:
