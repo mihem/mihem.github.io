@@ -95,6 +95,7 @@ sections:
 
           input, textarea {
             width: 100%;
+            max-width: 600px;
             padding: 0.5rem;
             border: 1px solid #ccc;
             border-radius: 4px;
