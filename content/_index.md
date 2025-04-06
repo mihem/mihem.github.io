@@ -75,54 +75,80 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: markdown
+  - block: custom-contact-form
     id: contact
+    design:
+      css_class: custom-contact-form
     content:
       title: Contact
       text: |-
         <style>
-          form {
+          .custom-contact-form {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 0 1rem;
+          }
+
+          .custom-contact-form form {
             display: flex;
             flex-direction: column;
             align-items: flex-start;
             gap: 1rem;
-            max-width: 400px;
+            max-width: 800px;
             margin: auto;
           }
 
-          label {
+          .custom-contact-form label {
             font-weight: bold;
           }
 
-          input, textarea {
+          .custom-contact-form input, .custom-contact-form textarea {
             width: 100%;
             padding: 0.5rem;
             border: 1px solid #ccc;
             border-radius: 4px;
             font-size: 1rem;
           }
+
+          .custom-contact-form button {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+            background-color: #000;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+          }
+
+          .custom-contact-form button:hover {
+            background-color: #333;
+          }
         </style>
 
-        <form
-          action="https://formspree.io/f/mbjwlgow"
-          method="POST"
-        >
-          <div>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-          </div>
-          <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-          </div>
-          <div>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-          </div>
-          <div class="flex justify-center mt-6">
-            <button type="submit" class="relative inline-flex items-center gap-1 rounded-md border border-gray-300 bg-white px-3 py-2 pl-4 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-20 dark:border-gray-500 dark:bg-gray-800 dark:text-gray-300">Send</button>
-          </div>
-        </form>
+        <div class="custom-contact-form">
+          <form
+            action="https://formspree.io/f/mbjwlgow"
+            method="POST"
+          >
+            <div>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <div class="flex justify-center mt-6">
+              <button type="submit">Send</button>
+            </div>
+          </form>
+        </div>
 #  - block: collection
 #    id: talks
 #    content:
