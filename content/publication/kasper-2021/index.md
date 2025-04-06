@@ -55,7 +55,7 @@ abstract: Uveitis describes a heterogeneous group of inflammatory eye diseases c
   communication. This suggests a unique pattern of ocular leukocyte infiltration in
   HLA-B27-positive uveitis with relevance to DCs.
 publication: '*eLife*'
-links::
+links:
 - name: URL
   url: http://dx.doi.org/10.7554/eLife.67396
 - icon: r-project
