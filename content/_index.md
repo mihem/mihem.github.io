@@ -103,26 +103,28 @@ sections:
           }
         </style>
 
-        <form
-          action="https://formspree.io/f/mbjwlgow"
-          method="POST"
-        >
-          <div>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-          </div>
-          <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-          </div>
-          <div>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-          </div>
-          <div class="flex justify-center mt-6">
-            <button type="submit" class="relative inline-flex items-center gap-1 rounded-md border border-gray-300 bg-white px-3 py-2 pl-4 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-20 dark:border-gray-500 dark:bg-gray-800 dark:text-gray-300">Send</button>
-          </div>
-        </form>
+        <div class="flex flex-col items-center px-6">
+          <form
+            action="https://formspree.io/f/mbjwlgow"
+            method="POST"
+          >
+            <div>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <div class="flex justify-center mt-6">
+              <button type="submit" class="relative inline-flex items-center gap-1 rounded-md border border-gray-300 bg-white px-3 py-2 pl-4 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-20 dark:border-gray-500 dark:bg-gray-800 dark:text-gray-300">Send</button>
+            </div>
+          </form>
+        </div>
     design:
       css_style: 'max-width: 100%; margin: 0 auto; padding: 0 1rem;'
 #  - block: collection
