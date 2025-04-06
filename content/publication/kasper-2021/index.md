@@ -58,8 +58,7 @@ publication: '*eLife*'
 links:
 - name: URL
   url: http://dx.doi.org/10.7554/eLife.67396
-- icon: bluesky
-  icon_pack: brands
+- icon: brands/bluesky
   name: Shiny app
   url: https://osmzhlab.uni-muenster.de/shiny/cerebro_uveitis/
 ---
