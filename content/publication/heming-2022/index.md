@@ -74,7 +74,6 @@ abstract: 'BACKGROUND: Primary central nervous system lymphoma (PCNSL) is a rare
   microenvironment, co-localizes with malignant cells, and highlights the potential
   of personalized treatments.'
 publication: '*Genome Medicine*'
-#doi: 10.1186/s13073-022-01110-1
 links:
 - icon: r-project
   icon_pack: fab

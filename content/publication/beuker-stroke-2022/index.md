@@ -77,8 +77,4 @@ abstract: Inflammation triggers secondary brain damage after stroke. The meninge
   of myeloid cells in the CNS is thus compartmentalized, adjusted to the type of injury
   and may represent a therapeutic target.
 publication: '*Nature Communications*'
-#doi: 10.1038/s41467-022-28593-1
-#links:
-#- name: URL
-#  url: https://www.nature.com/articles/s41467-022-28593-1
 ---

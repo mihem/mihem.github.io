@@ -22,7 +22,6 @@ publishDate: '2025-04-05T18:13:31.119815Z'
 publication_types:
 - article-journal
 publication: '*Neurology(R) neuroimmunology & neuroinflammation*'
-doi: 10.1212/NXI.0000000000200384
 abstract: 'BACKGROUND AND OBJECTIVES: Myasthenia gravis (MG) is an autoimmune disease
   most frequently caused by autoantibodies (auto-Abs) against the acetylcholine receptor
   (AChR) located at the neuromuscular junction. Thymic follicular hyperplasia is present

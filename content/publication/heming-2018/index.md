@@ -75,6 +75,7 @@ abstract: Although glucocorticoids (GC) represent the most frequently used immun
   and could show for the first time that PPAR-γ modulates GC-induced migration in
   macrophages.
 publication: '*Frontiers in immunology*'
-#url_pdf: http://dx.doi.org/10.3389/fimmu.2018.00893
-doi: 10.3389/fimmu.2018.00893
+links:
+- name: URL
+  url: https://doi.org/10.3389/fimmu.2018.00893
 ---

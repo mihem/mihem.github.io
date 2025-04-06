@@ -23,7 +23,6 @@ publishDate: '2025-04-05T18:13:31.049478Z'
 publication_types:
 - article-journal
 publication: '*EMBO Molecular Medicine*'
-doi: 10.1038/s44321-024-00043-z
 abstract: B-cell maturation antigen (BCMA), expressed in plasmablasts and plasma cells,
   could serve as a promising therapeutic target for autoimmune diseases. We reported
   here chimeric antigen receptor (CAR) T cells targeting BCMA in two patients with

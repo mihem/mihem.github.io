@@ -22,7 +22,6 @@ publishDate: '2025-04-05T18:13:31.060660Z'
 publication_types:
 - article-journal
 publication: '*Computers in biology and medicine*'
-doi: 10.1016/j.compbiomed.2024.108820
 abstract: 'BACKGROUND AND OBJECTIVE: Flow cytometry is a widely used technique for
   identifying cell populations in patient-derived fluids, such as peripheral blood
   (PB) or cerebrospinal fluid (CSF). Despite its ubiquity in research and clinical

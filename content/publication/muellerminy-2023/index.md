@@ -54,7 +54,6 @@ abstract: 'BACKGROUND AND OBJECTIVES: Immune responses in the central nervous sy
   emphasizing that the CNS is only partially accessible even for treatments profoundly
   affecting the blood.'
 publication: '*Journal of Neuroimmunology*'
-#doi: 10.1016/j.jneuroim.2023.578088
 links:
 - name: URL
   url: http://dx.doi.org/10.1016/j.jneuroim.2023.578088

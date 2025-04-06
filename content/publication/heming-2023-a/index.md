@@ -64,7 +64,6 @@ abstract: 'OBJECTIVE: Neurological manifestations of autoimmune connective tissu
   that a rapid blood test could support clinicians in the differential diagnosis of
   N-CTD.'
 publication: '*Journal of Neuroinflammation*'
-#doi: 10.1186/s12974-023-02733-w
 links:
 - name: URL
   url: https://doi.org/10.1186/s12974-023-02733-w

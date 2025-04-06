@@ -69,8 +69,6 @@ abstract: Patients suffering from Coronavirus disease 2019 (COVID-19) can develo
   compartment in Neuro-COVID patients and suggest compromised antiviral responses
   in this setting.
 publication: '*Immunity*'
-#url_pdf: https://linkinghub.elsevier.com/retrieve/pii/S1074761320305392
-#doi: 10.1016/j.immuni.2020.12.011
 links:
 - icon: r-project
   icon_pack: fab

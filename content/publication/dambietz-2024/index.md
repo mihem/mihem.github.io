@@ -16,7 +16,6 @@ publishDate: '2025-04-05T18:13:31.102829Z'
 publication_types:
 - article-journal
 publication: '*BMC Neurology*'
-doi: 10.1186/s12883-024-03742-9
 abstract: Cryptococcal meningitis (CM) is a severe fungal disease in immunocompromised
   patients affecting the central nervous system (CNS). Host response and immunological
   alterations in the cerebrospinal fluid (CSF) after invasion of Cryptococcus neoformans

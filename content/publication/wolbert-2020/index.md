@@ -72,6 +72,4 @@ abstract: Peripheral nerves contain axons and their enwrapping glia cells named 
   of PNS cells and a partially conserved autoimmunity module induced in glia cells.
 publication: '*Proceedings of the National Academy of Sciences of the United States
   of America*'
-#url_pdf: http://dx.doi.org/10.1073/pnas.1912139117
-#doi: 10.1073/pnas.1912139117
 ---

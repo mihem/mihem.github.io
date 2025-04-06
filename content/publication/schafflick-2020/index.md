@@ -61,6 +61,7 @@ abstract: Cerebrospinal fluid (CSF) protects the central nervous system (CNS) an
   of MS animal models. Immune mechanisms in MS are thus highly compartmentalized and
   indicate ongoing local T/B cell interaction.
 publication: '*Nature Communications*'
-#url_pdf: http://www.nature.com/articles/s41467-019-14118-w
-doi: 10.1038/s41467-019-14118-w
+links:
+- name: URL
+  url: http://dx.doi.org/10.1038/s41467-019-14118-w
 ---

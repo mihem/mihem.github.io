@@ -34,7 +34,6 @@ publishDate: '2025-04-05T18:13:31.110541Z'
 publication_types:
 - article-journal
 publication: '*Brain: A Journal of Neurology*'
-doi: 10.1093/brain/awaf096
 abstract: Anti-Leucine-rich glioma inactivated-1 (LGI1) and anti-contactin-associated-protein-2
   (CASPR2) autoimmune encephalitis (AIE) are common and characterized by pathogenic
   antibodies targeting neuronal autoantigens. However, the drivers of the antibody-secreting

@@ -88,7 +88,4 @@ abstract: Ectopic lymphoid tissue containing B cells forms in the meninges at la
   in neuroinflammation.
 publication: '*Proceedings of the National Academy of Sciences of the United States
   of America*'
-#url_pdf: http://dx.doi.org/10.1073/pnas.2023174118
-#doi: 10.1073/pnas.2023174118
-#doi: 10.1073/pnas.2023174118
 ---

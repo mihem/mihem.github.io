@@ -55,7 +55,6 @@ abstract: The cerebrospinal fluid (CSF) features a unique immune cell compositio
   potential for personalized medicine by better resolving heterogeneous diseases and
   stratifying patients.
 publication: '*Genome Medicine*'
-#doi: 10.1186/s13073-022-01097-9
 links:
 - name: URL
   url: https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-022-01097-9

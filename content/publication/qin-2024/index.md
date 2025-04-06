@@ -28,7 +28,6 @@ publishDate: '2025-04-05T18:13:31.069268Z'
 publication_types:
 - article-journal
 publication: '*Science Immunology*'
-doi: 10.1126/sciimmunol.adj9730
 abstract: Chimeric antigen receptor (CAR) T cell immunotherapy for the treatment of
   neurological autoimmune diseases is promising, but CAR T cell kinetics and immune
   alterations after treatment are poorly understood. Here, we performed single-cell

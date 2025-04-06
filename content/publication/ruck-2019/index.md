@@ -64,6 +64,7 @@ abstract: 'BACKGROUND: Alemtuzumab is approved for the treatment of active relap
   manifest thyroid sAID and should therefore be used in clinical decisions concerning
   alemtuzumab treatment initiation.'
 publication: '*EBioMedicine*'
-#url_pdf: http://dx.doi.org/10.1016/j.ebiom.2019.07.062
-doi: 10.1016/j.ebiom.2019.07.062
+links:
+- name: URL
+  url: http://dx.doi.org/10.1016/j.ebiom.2019.07.062
 ---

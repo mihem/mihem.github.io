@@ -39,7 +39,6 @@ publishDate: '2025-04-05T18:13:31.085067Z'
 publication_types:
 - article-journal
 publication: '*Brain, Behavior, and Immunity*'
-doi: 10.1016/j.bbi.2024.04.011
 abstract: Neuroinflammation and blood-cerebrospinal fluid barrier (BCB) disruption
   could be key elements in schizophrenia-spectrum disorderś(SSDs) etiology and symptom
   modulation. We present the largest two-stage individual patient data (IPD) meta-analysis,

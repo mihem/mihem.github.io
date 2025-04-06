@@ -34,7 +34,6 @@ publication_types:
 abstract: ''
 publication: '*Proceedings of the National Academy of Sciences of the United States
   of America*'
-#doi: 10.1073/pnas.2221544120
 links:
 - name: URL
   url: http://dx.doi.org/10.1073/pnas.2221544120

@@ -68,6 +68,7 @@ abstract: 'Objective: Utilize immune cell profiles in the cerebrospinal fluid (C
   diagnostic tools. Intra-disease heterogeneity suggests distinct disease mechanisms
   in subgroups of inflammatory neuropathies.'
 publication: '*Frontiers in immunology*'
-#url_pdf: http://dx.doi.org/10.3389/fimmu.2019.00515
-doi: 10.3389/fimmu.2019.00515
+links:
+- name: URL
+  url: https://doi.org/10.3389/fimmu.2019.00515
 ---

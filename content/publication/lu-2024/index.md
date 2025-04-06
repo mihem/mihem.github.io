@@ -28,7 +28,6 @@ publishDate: '2025-04-05T18:13:31.077093Z'
 publication_types:
 - article-journal
 publication: '*Nature Communications*'
-doi: 10.1038/s41467-024-48195-3
 abstract: "5q-associated spinal muscular atrophy (SMA) is a motoneuron disease caused
   by mutations in the survival motor neuron 1 (SMN1) gene. Adaptive immunity may contribute
   to SMA as described in other motoneuron diseases, yet mechanisms remain elusive.

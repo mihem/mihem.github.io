@@ -62,6 +62,4 @@ abstract: Distinguishing neurosarcoidosis (NS) from multiple sclerosis (MS) rema
   a multi-dimensional model of blood and CSF supporting the difficult differential
   diagnosis between NS and MS.
 publication: '*Journal of Neuroimmunology*'
-#url_pdf: https://linkinghub.elsevier.com/retrieve/pii/S0165572819305880
-#doi: 10.1016/j.jneuroim.2020.577171
 ---
