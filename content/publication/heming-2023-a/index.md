@@ -66,8 +66,6 @@ abstract: 'OBJECTIVE: Neurological manifestations of autoimmune connective tissu
 publication: '*Journal of Neuroinflammation*'
 #doi: 10.1186/s12974-023-02733-w
 links:
-- icon: book-open
-  icon_pack: fas
-  name: Manuscript
+- name: URL
   url: https://doi.org/10.1186/s12974-023-02733-w
 ---

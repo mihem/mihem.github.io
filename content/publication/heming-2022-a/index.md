@@ -57,8 +57,6 @@ abstract: The cerebrospinal fluid (CSF) features a unique immune cell compositio
 publication: '*Genome Medicine*'
 #doi: 10.1186/s13073-022-01097-9
 links:
-- icon: book-open
-  icon_pack: fas
-  name: Manuscript
+- name: URL
   url: https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-022-01097-9
 ---

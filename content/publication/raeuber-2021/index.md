@@ -44,9 +44,7 @@ image:
   focal_point: 'Center'
   preview_only: false
 links:
-- icon: book-open
-  icon_pack: fas
-  name: Manuscript
+- name: URL
   url: http://dx.doi.org/10.1038/s41380-021-01244-5
 # Projects (optional).
 #   Associate this post with one or more of your projects.

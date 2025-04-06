@@ -46,9 +46,7 @@ image:
   focal_point: 'Center'
   preview_only: false
 links:
-- icon: book-open
-  icon_pack: fas
-  name: Manuscript
+- name: URL
   url: https://doi.org/10.1038/s41467-022-28593-1
 - icon: r-project
   icon_pack: fab

@@ -53,9 +53,7 @@ image:
   preview_only: false
 
 links:
-- icon: book-open
-  icon_pack: fas
-  name: Manuscript
+- name: URL
   url: https://doi.org/10.1073/pnas.2023174118
 
 

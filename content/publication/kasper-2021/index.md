@@ -36,10 +36,7 @@ links:
   icon_pack: fab
   name: Shiny app
   url: https://osmzhlab.uni-muenster.de/shiny/cerebro_uveitis/
-- icon: book-open
-  icon_pack: fas
-  name: Manuscript
-  url: https://doi.org/10.7554/elife.67396
+- name: URL
   preview_only: false
 
 # Projects (optional).

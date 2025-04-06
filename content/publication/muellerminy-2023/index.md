@@ -56,8 +56,6 @@ abstract: 'BACKGROUND AND OBJECTIVES: Immune responses in the central nervous sy
 publication: '*Journal of Neuroimmunology*'
 #doi: 10.1016/j.jneuroim.2023.578088
 links:
-- icon: book-open
-  icon_pack: fas
-  name: Manuscript
+- name: URL
   url: http://dx.doi.org/10.1016/j.jneuroim.2023.578088
 ---

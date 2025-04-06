@@ -80,8 +80,6 @@ links:
   icon_pack: fab
   name: Shiny app
   url: https://osmzhlab.uni-muenster.de/shiny/cerebro_pcnsl/
-- icon: book-open
-  icon_pack: fas
-  name: Manuscript
+- name: URL
   url: https://doi.org/10.1186/s13073-022-01110-1
 ---

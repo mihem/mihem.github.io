@@ -45,9 +45,7 @@ links:
   icon_pack: fab
   name: Shiny app mouse
   url: https://osmzhlab.uni-muenster.de/shiny/cerebro_meninges_rat/
-- icon: book-open
-  icon_pack: fas
-  name: Manuscript
+- name: URL
   url: https://doi.org/10.1073/pnas.1912139117
 # Projects (optional).
 #   Associate this post with one or more of your projects.

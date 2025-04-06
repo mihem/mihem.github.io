@@ -76,8 +76,6 @@ links:
   icon_pack: fab
   name: Shiny app
   url: https://osmzhlab.uni-muenster.de/shiny/cerebro_covid19/
-- icon: book-open
-  icon_pack: fas
-  name: Manuscript
+- name: URL
   url: https://doi.org/10.1016/j.immuni.2020.12.011
 ---

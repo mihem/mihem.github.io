@@ -41,9 +41,7 @@ links:
   icon_pack: fab
   name: Shiny app
   url: https://osmzhlab.uni-muenster.de/shiny/ns/
-- icon: book-open
-  icon_pack: fas
-  name: Manuscript
+- name: URL
   url: https://doi.org/10.1016/j.jneuroim.2020.577171
 # Projects (optional).
 #   Associate this post with one or more of your projects.
