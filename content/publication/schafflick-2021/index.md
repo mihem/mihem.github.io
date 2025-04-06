@@ -47,8 +47,14 @@ image:
 links:
 - name: URL
   url: https://doi.org/10.1038/s41593-021-00880-y
-url_dataset: https://osmzhlab.uni-muenster.de/shiny/cerebro_meninges_mouse/
-url_dataset: https://osmzhlab.uni-muenster.de/shiny/cerebro_meninges_rat/
+- icon: r-project
+  icon_pack: fab
+  name: Shiny app mouse
+  url: https://osmzhlab.uni-muenster.de/shiny/cerebro_meninges_mouse/
+- icon: r-project
+  icon_pack: fab
+  name: Shiny app rat
+  url: https://osmzhlab.uni-muenster.de/shiny/cerebro_meninges_rat/
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
