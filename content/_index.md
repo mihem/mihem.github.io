@@ -94,6 +94,7 @@ sections:
             <textarea name="message"></textarea>
           </label>
           <!-- your other form fields go here -->
+          <br>
           <button type="submit">Send</button>
         </form>
 #  - block: collection
