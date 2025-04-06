@@ -77,6 +77,9 @@ sections:
       view: citation
   - block: markdown
     id: contact
+    design:
+      view: article-grid
+      columns: 1
     content:
       title: Contact
       text: |-
