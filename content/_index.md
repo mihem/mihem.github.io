@@ -103,8 +103,8 @@ sections:
 
           button {
             padding: 0.5rem 1rem;
-            background-color: #007BFF;
-            color: white;
+            background-color: var(--button-bg, #007BFF);
+            color: var(--button-text, white);
             border: none;
             border-radius: 4px;
             cursor: pointer;
@@ -112,7 +112,23 @@ sections:
           }
 
           button:hover {
-            background-color: #0056b3;
+            background-color: var(--button-hover-bg, #0056b3);
+          }
+
+          /* Light mode */
+          :root {
+            --button-bg: #007BFF;
+            --button-text: white;
+            --button-hover-bg: #0056b3;
+          }
+
+          /* Dark mode */
+          @media (prefers-color-scheme: dark) {
+            :root {
+              --button-bg: #444;
+              --button-text: white;
+              --button-hover-bg: #666;
+            }
           }
         </style>
 
