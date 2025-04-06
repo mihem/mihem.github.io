@@ -1,13 +1,11 @@
 ---
 date: "2020-04-28T00:00:00Z"
-external_link: https://osmzhlab.uni-muenster.de/shiny/cerebro_pns_naive/
-external_link: https://osmzhlab.uni-muenster.de/shiny/cerebro_pns_nodicam/
 title: Murine peripheral nerve
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
-
+links:
+- name: Shiny app healthy mouse
+  url: https://osmzhlab.uni-muenster.de/shiny/cerebro_pns_naive/
+- name: Shiny app inflammatory mouse model
+  url: https://osmzhlab.uni-muenster.de/shiny/cerebro_pns_nodicam/
 ---
 
 Redefining the heterogeneity of peripheral nerve cells in health and autoimmunity 
