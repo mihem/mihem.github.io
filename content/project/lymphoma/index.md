@@ -1,13 +1,6 @@
 ---
 date: "2022-09-24T00:00:00Z"
 #external_link: https://osmzhlab.uni-muenster.de/shiny/cerebro_covid19/
-image:
-  caption: Primary CNS lymphoma
-  focal_point: Smart
-summary: Single-cell atlas of primary CNS lymphoma
-tags:
-- Clinical Neurology
-- scRNAseq
 title: Primary CNS lymphoma
 links:
 - icon: r-project
@@ -24,3 +17,5 @@ url_slides: ""
 url_video: ""
 
 ---
+
+Single-cell atlas of primary CNS lymphoma
