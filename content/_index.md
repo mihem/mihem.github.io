@@ -49,10 +49,9 @@ sections:
       filters:
         folders:
           - project
-        featured_only: true
     design:
       view: showcase
-      columns: 2
+      columns: 1
   - block: collection
     id: papers
     content:
