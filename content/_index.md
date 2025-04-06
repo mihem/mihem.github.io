@@ -110,20 +110,23 @@ sections:
         <form
           action="https://formspree.io/f/mbjwlgow"
           method="POST"
+          class="max-w-xl mx-auto"
         >
-          <div>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+          <div class="mb-4">
+            <label for="name" class="font-bold block mb-2">Name:</label>
+            <input type="text" id="name" name="name" required class="w-full p-2 border border-gray-300 rounded-md dark:border-gray-500 dark:bg-gray-800 dark:text-gray-300">
           </div>
-          <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+          <div class="mb-4">
+            <label for="email" class="font-bold block mb-2">Email:</label>
+            <input type="email" id="email" name="email" required class="w-full p-2 border border-gray-300 rounded-md dark:border-gray-500 dark:bg-gray-800 dark:text-gray-300">
           </div>
-          <div>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
+          <div class="mb-4">
+            <label for="message" class="font-bold block mb-2">Message:</label>
+            <textarea id="message" name="message" rows="4" required class="w-full p-2 border border-gray-300 rounded-md dark:border-gray-500 dark:bg-gray-800 dark:text-gray-300"></textarea>
           </div>
-          <button type="submit">Send</button>
+          <div class="flex justify-center mt-6">
+            <button type="submit" class="relative inline-flex items-center gap-1 rounded-md border border-gray-300 bg-white px-3 py-2 pl-4 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-20 dark:border-gray-500 dark:bg-gray-800 dark:text-gray-300">Send</button>
+          </div>
         </form>
 #  - block: collection
 #    id: talks
