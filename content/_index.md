@@ -77,6 +77,9 @@ sections:
       view: citation
   - block: markdown
     id: contact
+    design:
+      spacing:
+        padding: ['20px', '0', '20px', '0']
     content:
       title: Contact
       text: |-
@@ -86,7 +89,7 @@ sections:
             flex-direction: column;
             align-items: flex-start;
             gap: 1rem;
-            max-width: 800px; /* Increased width for a wider form */
+            max-width: 400px;
             margin: auto;
           }
 
@@ -96,7 +99,6 @@ sections:
 
           input, textarea {
             width: 100%;
-            max-width: 800px; /* Match form width */
             padding: 0.5rem;
             border: 1px solid #ccc;
             border-radius: 4px;
