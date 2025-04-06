@@ -101,10 +101,6 @@ sections:
             border-radius: 4px;
             font-size: 1rem;
           }
-
-          button {
-            @apply bg-primary-700 text-white font-bold py-2 px-4 rounded shadow hover:bg-primary-800;
-          }
         </style>
 
         <form
