@@ -31,7 +31,6 @@ draft: false
 image:
   caption: ''
   focal_point: ''
-
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
@@ -59,5 +58,8 @@ publication: '*eLife*'
 links::
 - name: URL
   url: http://dx.doi.org/10.7554/eLife.67396
-url_dataset: https://osmzhlab.uni-muenster.de/shiny/cerebro_uveitis/
+- icon: r-project
+  icon_pack: fab
+  name: Shiny app
+  url: https://osmzhlab.uni-muenster.de/shiny/cerebro_uveitis/
 ---
