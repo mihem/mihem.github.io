@@ -58,8 +58,8 @@ publication: '*eLife*'
 links:
 - name: URL
   url: http://dx.doi.org/10.7554/eLife.67396
-- icon: r-project
-  icon_pack: fab
+- icon: r
+  icon_pack: devicon
   name: Shiny app
   url: https://osmzhlab.uni-muenster.de/shiny/cerebro_uveitis/
 ---
