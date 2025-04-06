@@ -123,7 +123,7 @@ sections:
             <label for="message">Message:</label>
             <textarea id="message" name="message" rows="4" required></textarea>
           </div>
-          <button type="submit">Send</button>
+          <button type="submit" class="btn btn-primary">Send</button>
         </form>
 #  - block: collection
 #    id: talks
