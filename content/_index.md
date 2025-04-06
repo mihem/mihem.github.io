@@ -46,6 +46,7 @@ sections:
     id: projects
     content:
       title: Projects
+      count: 6
       filters:
         folders:
           - project
