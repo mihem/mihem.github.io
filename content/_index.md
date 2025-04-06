@@ -86,7 +86,7 @@ sections:
             flex-direction: column;
             align-items: flex-start;
             gap: 1rem;
-            max-width: 800px;
+            max-width: 400px;
             margin: auto;
           }
 
@@ -100,28 +100,6 @@ sections:
             border: 1px solid #ccc;
             border-radius: 4px;
             font-size: 1rem;
-          }
-
-          button {
-            width: 100%;
-            padding: 0.5rem;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            font-size: 1rem;
-            background-color: #000;
-            color: white;
-            font-weight: bold;
-            cursor: pointer;
-          }
-
-          button:hover {
-            background-color: #333;
-          }
-
-          /* Overwrite Hugo Blox Tailwind defaults */
-          .form-container {
-            max-width: 800px;
-            margin: 0 auto;
           }
         </style>
 
