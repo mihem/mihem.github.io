@@ -53,4 +53,6 @@ abstract: Diseases affecting multiple peripheral nerves, termed polyneuropathies
 links:
 - name: URL
   url: https://www.nature.com/articles/s41467-025-62964-8
+url_code: https://github.com/mihem/pns_atlas
+featured: true
 ---
