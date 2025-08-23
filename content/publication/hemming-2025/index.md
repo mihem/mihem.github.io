@@ -37,7 +37,6 @@ publishDate: '2025-08-23T18:28:46.544395Z'
 publication_types:
 - article-journal
 publication: '*Nature Communications*'
-doi: 10.1038/s41467-025-62964-8
 abstract: Diseases affecting multiple peripheral nerves, termed polyneuropathies (PNPs),
   are common, mechanistically heterogeneous, and their causes are challenging to identify.
   Here, we integrated single-nucleus transcriptomics of peripheral nerves from 33
@@ -52,7 +51,7 @@ abstract: Diseases affecting multiple peripheral nerves, termed polyneuropathies
   identified novel mechanisms in PNPs with diagnostic potential.
 links:
 - name: URL
-  url: https://www.nature.com/articles/s41467-025-62964-8
+  url: https://doi.org/10.1038/s41467-025-62964-8
 url_code: https://github.com/mihem/pns_atlas
 featured: true
 ---
