@@ -22,7 +22,7 @@ date: '2025-05-01'
 publishDate: '2025-08-23T18:38:14.909180Z'
 publication_types:
 - article-journal
-publication: '*Muhasebe Enstitüsü Dergisi - Journal of Accounting Institute*'
+publication: '*Med*'
 doi: 10.1016/j.medj.2025.100704
 abstract: 'BACKGROUND: Chronic inflammatory demyelinating polyneuropathy (CIDP) presents
   a significant therapeutic challenge, with up to 15% of patients being refractory
