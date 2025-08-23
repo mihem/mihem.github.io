@@ -1,0 +1,26 @@
+# Hugo files
+public/
+resources/_gen/
+.hugo_build.lock
+hugo_stats.json
+
+# Hugo binary (for local testing)
+hugo
+hugo.tar.gz
+
+# Node modules
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.tmp
+
+# Build artifacts
+dist/
+build/
