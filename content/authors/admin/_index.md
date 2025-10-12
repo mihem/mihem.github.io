@@ -17,7 +17,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Clinicial Scientist
+role: Clinician Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
