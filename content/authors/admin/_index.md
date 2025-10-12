@@ -182,7 +182,7 @@ profiles:
 
 ## About Me
 
-I am a clinican scientist and board-ceritifed neurologist with a research focus on neuroimmunology, data analysis and single-cell transcriptomics. I work at the Department of Neurology, University Hospital Münster and am a member of the [mzhlab](https://mzhlab.com).
+I am a clinican scientist and board-certified neurologist with a research focus on neuroimmunology, data analysis and single-cell transcriptomics. I work at the Department of Neurology, University Hospital Münster and am a member of the [mzhlab](https://mzhlab.com).
 
 ### Interests:
   - Data analysis
