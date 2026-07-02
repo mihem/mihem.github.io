@@ -74,7 +74,4 @@ abstract: Psychotic disorders are common and disabling mental conditions. The re
   the diagnosis of psychosis spectrum disorders with the potential to accelerate diagnosis
   and initiation of therapy.
 publication: '*Molecular Psychiatry*'
-links:
-- name: URL
-  url: http://dx.doi.org/10.1038/s41380-021-01244-5
 ---

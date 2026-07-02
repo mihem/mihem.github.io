@@ -22,14 +22,7 @@ sections:
       css_class: dark
       background:
         color: black
-        image:
-          # Add your image background to `assets/media/`.
-#          filename: stacked-peaks.svg
-#          filters:
-#            brightness: 1.0
-#          size: cover
-#          position: center
-#          parallax: false
+      columns: '1'
 #  - block: markdown
 #    content:
 #      title: '📚 My Research'
@@ -40,8 +33,6 @@ sections:
 #        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
 #        
 #        Please reach out to collaborate 😃
-    design:
-      columns: '1'
   - block: collection
     id: projects
     content:
