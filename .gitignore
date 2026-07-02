@@ -15,6 +15,9 @@ resources/
 # Hugo build lock
 .hugo_build.lock
 
+# Go module checksums (Hugo manages modules; upstream does not track this)
+go.sum
+
 # Hugo stats
 hugo_stats.json
 
