@@ -1,0 +1,45 @@
+schema: hugoblox/author/v1
+slug: admin
+is_owner: true
+
+name:
+  display: Michael Heming
+  given: Michael
+  family: Heming
+
+role: Clinician Scientist
+
+bio: |
+  I am a clinican scientist and board-certified neurologist with a research focus on neuroimmunology, data analysis and single-cell transcriptomics. I work at the Department of Neurology, University Hospital Münster and am a member of the [mzhlab](https://mzhlab.com).
+
+  #### Programming/DevOps Skills
+  - R ★★★★★
+  - Linux Admin ★★★☆☆
+  - Nix ★★★☆☆
+  - Docker ★★★☆☆
+  - Git ★★★☆☆
+  - Python ★★☆☆☆
+  - C++ ★☆☆☆☆
+
+affiliations:
+  - name: mzhlab
+    url: https://mzhlab.com
+
+interests:
+  - Data analysis
+  - Neuroimmunology
+  - Single cell transcriptomics
+
+links:
+  - icon: brands/bluesky
+    url: https://bsky.app/profile/mheming.bsky.social
+  - icon: brands/x
+    url: https://x.com/MHemingNeuro
+  - icon: brands/github
+    url: https://github.com/mihem
+  - icon: academicons/pubmed
+    url: https://pubmed.ncbi.nlm.nih.gov/?term=Michael+Heming&sort=date
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=q3VdPDAAAAAJ&hl=de
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-9568-2790
