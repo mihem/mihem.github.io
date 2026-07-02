@@ -80,7 +80,4 @@ abstract: The CNS is ensheathed by the meninges and cerebrospinal fluid, and rec
   an unexpected site of B cell residence and potentially of development in both homeostasis
   and neuroinflammation.
 publication: '*Nature Neuroscience*'
-links:
-- name: URL
-  url: http://dx.doi.org/10.1038/s41593-021-00880-y
 ---
