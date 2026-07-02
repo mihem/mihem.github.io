@@ -192,6 +192,7 @@ I am a clinican scientist and board-certified neurologist with a research focus 
 ### Programming/DevOps Skills: 
   - R ★★★★★
   - Linux Admin ★★★☆☆
+  - Nix ★★★☆☆
   - Docker ★★★☆☆
   - Git ★★★☆☆
   - Python ★★☆☆☆
