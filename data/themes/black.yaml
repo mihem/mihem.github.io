@@ -1,0 +1,42 @@
+# HugoBlox Theme Pack - Black dark mode
+# Same as the built-in 'default' pack but with a pure-black dark background,
+# matching the previous site look. Used as the dark pack via
+# params.yaml: hugoblox.theme.pack.dark = black
+
+hugoblox:
+  meta:
+    format: "hugoblox-theme@1"
+    name: "Black"
+    vendor: "user"
+    version: "1.0.0"
+    license: "MIT"
+
+  type: "dual"
+
+  light:
+    colors:
+      primary: "emerald"
+      secondary: "blue"
+    surfaces:
+      background: "#ffffff"
+      foreground: "#111827"
+      header:
+        background: "#f1f5f9"
+        foreground: "#0f172a"
+      footer:
+        background: "#f3f4f6"
+        foreground: "#0f172a"
+
+  dark:
+    colors:
+      primary: "emerald"
+      secondary: "teal"
+    surfaces:
+      background: "#000000"
+      foreground: "#f8fafc"
+      header:
+        background: "#000000"
+        foreground: "#f8fafc"
+      footer:
+        background: "#000000"
+        foreground: "#e5e7eb"

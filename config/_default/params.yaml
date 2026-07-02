@@ -3,10 +3,18 @@
 # Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-# Appearance
-appearance:
-  mode: system
-  color: emerald
+# Appearance (HugoBlox v2 theme engine - the legacy 'appearance' key is ignored by blox v0.12+)
+hugoblox:
+  theme:
+    # 'light', 'dark', or 'system' (follows OS preference; navbar toggle overrides per session)
+    mode: system
+    # Built-in 'default' pack for light mode, custom 'black' pack (pure-black bg) for dark mode
+    pack:
+      light: default
+      dark: black
+    # Brand color (restores the previous emerald accent in both modes)
+    colors:
+      primary: emerald
 
 # SEO
 marketing:
