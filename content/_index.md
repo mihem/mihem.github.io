@@ -30,6 +30,7 @@ sections:
 #          size: cover
 #          position: center
 #          parallax: false
+      columns: '1'
 #  - block: markdown
 #    content:
 #      title: '📚 My Research'
@@ -40,8 +41,6 @@ sections:
 #        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
 #        
 #        Please reach out to collaborate 😃
-    design:
-      columns: '1'
   - block: collection
     id: projects
     content:
