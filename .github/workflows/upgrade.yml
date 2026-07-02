@@ -1,0 +1,133 @@
+name: Upgrade HugoBlox
+
+# Automatically syncs the HugoBlox modules (go.mod) and applies config migrations
+# from upstream. Opens a PR and auto-merges it once the build passes.
+#
+# Requires the `GH_SELF_UPDATE_TOKEN` repo secret (a fine-grained or classic PAT
+# with `contents: write` and `pull-requests: write`, plus `workflows` if this
+# file ever needs to modify workflow files). The default GITHUB_TOKEN cannot
+# trigger the required build check on its own PRs, so a PAT is needed.
+#
+# Repo settings needed:
+#   - Settings > General > "Allow auto-merge" = ON
+#   - Settings > Pages > Source = "GitHub Actions"
+#   - (Optional) Branch protection on `main` requiring the "Build" check
+
+on:
+  workflow_dispatch:
+    inputs:
+      version_type:
+        description: 'Upgrade to version'
+        required: true
+        default: 'Stable'
+        type: choice
+        options:
+          - Stable
+          - Beta (Preview)'
+  schedule:
+    # Run at 05:00 UTC every Monday
+    - cron: '0 5 * * 1'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+# Prevent duplicate upgrade runs
+concurrency:
+  group: upgrade-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  upgrade:
+    name: Upgrade
+    if: github.repository_owner != 'HugoBlox'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Ensure token
+        run: |
+          if [[ -z "$GH_SELF_UPDATE_TOKEN" ]]; then
+            echo "::error::GH_SELF_UPDATE_TOKEN secret is not set. Disabling this workflow. Create a PAT (contents + pull-requests scopes) and add it as the secret GH_SELF_UPDATE_TOKEN, then re-enable this workflow."
+            gh -R "$GITHUB_REPOSITORY" workflow disable "$GITHUB_WORKFLOW"
+            exit 1
+          fi
+        env:
+          GH_SELF_UPDATE_TOKEN: ${{ secrets.GH_SELF_UPDATE_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          token: ${{ secrets.GH_SELF_UPDATE_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v6
+        with:
+          package_json_path: ./package.json
+          run_install: false
+
+      - name: Setup Go
+        uses: actions/setup-go@v6
+        with:
+          go-version: '1.23'
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Run Upgrade CLI
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_SELF_UPDATE_TOKEN }}
+          # Use manual input or default to stable for scheduled runs
+          VERSION_TYPE: ${{ inputs.version_type || 'Stable' }}
+        run: |
+          FLAGS="--yes --ci"
+
+          if [ "$VERSION_TYPE" == "Beta (Preview)" ]; then
+            FLAGS="$FLAGS --canary"
+          fi
+
+          echo "Running upgrade with flags: $FLAGS"
+          pnpm dlx hugoblox@latest upgrade $FLAGS
+
+      - name: Create Pull Request
+        id: pr
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ secrets.GH_SELF_UPDATE_TOKEN }}
+          commit-message: "chore(deps): upgrade hugoblox modules"
+          title: "Upgrade HugoBlox Modules"
+          body: |
+            This PR upgrades the [HugoBlox](https://hugoblox.com) modules to the latest version.
+
+            **Changes:**
+            - Updated Hugo Modules (go.mod/go.sum)
+            - Applied automatic migrations (if any)
+
+            **Verification:**
+            - The Build workflow runs automatically on this PR. It will auto-merge once it passes.
+          branch: "chore/upgrade-hugoblox"
+          delete-branch: true
+          base: main
+          labels: |
+            dependencies
+            automated-pr
+
+      - name: Enable auto-merge
+        if: ${{ steps.pr.outputs.pull-request-number }}
+        run: gh pr merge "$PR_NUMBER" --auto --squash --delete-branch
+        env:
+          GH_TOKEN: ${{ secrets.GH_SELF_UPDATE_TOKEN }}
+          PR_NUMBER: ${{ steps.pr.outputs.pull-request-number }}
+
+      - name: No changes
+        if: ${{ !steps.pr.outputs.pull-request-number }}
+        run: echo "Already up to date - no upgrade changes to apply."
