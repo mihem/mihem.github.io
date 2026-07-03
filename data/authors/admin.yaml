@@ -10,7 +10,7 @@ name:
 role: Clinician Scientist
 
 bio: |
-  I am a clinican scientist and board-certified neurologist with a research focus on neuroimmunology, data analysis and single-cell transcriptomics. I work at the Department of Neurology, University Hospital Münster and am a member of the [mzhlab](https://mzhlab.com).
+  I am a clinican scientist and board-certified neurologist with a research focus on neuroimmunology, data analysis and single-cell transcriptomics. I work at the Department of Neurology, University Hospital Münster.
 
   #### Programming/DevOps Skills
   - R ★★★★★
@@ -20,10 +20,6 @@ bio: |
   - Git ★★★☆☆
   - Python ★★☆☆☆
   - C++ ★☆☆☆☆
-
-affiliations:
-  - name: mzhlab
-    url: https://mzhlab.com
 
 interests:
   - Data analysis
