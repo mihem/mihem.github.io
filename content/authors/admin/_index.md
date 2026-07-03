@@ -20,9 +20,9 @@ highlight_name: true
 role: Clinician Scientist
 
 # Organizations/Affiliations to display in Biography blox
-organizations:
-  - name: mzhlab
-    url: https://mzhlab.com
+#organizations:
+#  - name: mzhlab
+#    url: https://mzhlab.com
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -182,7 +182,7 @@ profiles:
 
 ## About Me
 
-I am a clinican scientist and board-certified neurologist with a research focus on neuroimmunology, data analysis and single-cell transcriptomics. I work at the Department of Neurology, University Hospital Münster and am a member of the [mzhlab](https://mzhlab.com).
+I am a clinican scientist and board-certified neurologist with a research focus on neuroimmunology, data analysis and single-cell transcriptomics. I work at the Department of Neurology, University Hospital Münster.
 
 ### Interests:
   - Data analysis
